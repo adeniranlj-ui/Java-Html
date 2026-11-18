@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <main class="container py-4">
+    <h1>Temperature Converter</h1>
+
+    <form id="to-fahrenheit" class="input-group mb-3">
+      <input id="celsius" class="form-control" type="number" step="any" placeholder="Degrees Celsius" required>
+      <button class="btn btn-secondary">Convert to °F</button>
+    </form>
+
+    <form id="to-celsius" class="input-group">
+      <input id="fahrenheit" class="form-control" type="number" step="any" placeholder="Degrees Fahrenheit" required>
+      <button class="btn btn-secondary">Convert to °C</button>
+    </form>
+
+    <p id="result" class="mt-3"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
